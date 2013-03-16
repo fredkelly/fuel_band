@@ -11,6 +11,7 @@
 2. Paste your access token in the placeholder in the config.
 
 Load up IRB:
+```ruby
 	>> require 'fuel'
 	=> true
 	>> require 'awesome_print'
@@ -41,4 +42,9 @@ Load up IRB:
 	}
 	=> nil
 	>> ap fuel.summary
-	...<< HUGE explosion of data >>...
+	{
+		...
+		<< HUGE explosion of data >>
+		...
+	}
+```
